@@ -1,0 +1,94 @@
+%btn-circle {
+    padding: 6px 0px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.42857;
+}
+.help_container{
+        height: 80vh;
+        position: relative;
+        background: url(https://res.cloudinary.com/ottawa-hospital-research-institute/image/upload/v1556033811/TOH_App/about.jpg)
+        no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        @media screen and (max-width: $break-small) {
+            padding-top: 30px;
+        }
+
+    .circle_div1{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 1vh;
+    }
+
+    .circle_div2{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .circle_div3{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .btn-circle1 {
+        width: 27vh;
+        height: 27vh;
+        max-width: 240px;
+        max-height: 240px;
+        margin-left: 28%;
+        @extend %btn-circle;
+
+        @media screen and (max-width: $break-small) {
+            margin-left: 15%;
+            width: 8rem;
+            height: 8rem;
+            font-size: 28px;
+        }
+    }
+
+    .btn-circle2 {
+
+        width: 30vh;
+        height: 30vh;
+        max-width: 270px;
+        max-height: 270px;
+        margin-right: 20%;
+        margin-top: -60px;
+        margin-bottom: -60px;
+        @extend %btn-circle;
+
+        @media screen and (max-width: $break-small) {
+            width: 9rem;
+            height: 9rem;
+            margin-right: 4%;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 28px;
+        }
+    }
+
+    .btn-circle3 {
+        width: 32vh;
+        height: 32vh;
+        max-width: 300px;
+        max-height: 300px;
+        margin-left: 20%;
+        @extend %btn-circle;
+
+        @media screen and (max-width: $break-small) {
+            margin-left: 10%;
+            width: 10rem;
+            height: 10rem;
+            font-size: 28px;
+        }
+    }
+
+}

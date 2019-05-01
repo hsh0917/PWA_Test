@@ -1,0 +1,48 @@
+.healthReport_container{
+    h2{
+        text-align: center;
+    }
+
+    .healthReport_chart h4{ 
+        text-align: left;
+        margin-bottom: -1.1rem;
+        margin-top: 10px;
+        @media screen and (max-width: $break-small) {
+        }
+
+    }
+    
+    div{
+        margin: 0 auto;
+        width: 70%;
+        @media screen and (max-width: $break-small) {
+            width: 100%;            
+        }
+    }
+
+    .healthchart_icon_happy{
+        position: relative;
+        top: 30px;
+        left: 18px;
+        @media screen and (max-width: $break-small) {
+            left: 10px;
+        }
+    }
+    
+    .healthchart_icon_sad{
+        position: relative;
+        top: 174px;
+        left: -5px;
+        @media screen and (max-width: $break-small) {
+            left: -12px;
+        }
+    }
+    .fa-frown.fa-2x, .fa-grin-beam.fa-2x {
+        font-size: 1.5rem;
+
+        @media screen and (max-width: $break-small) {
+            font-size: 1.3rem;
+        }
+    }
+    
+}

@@ -1,0 +1,26 @@
+
+.landing_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background: url(https://res.cloudinary.com/ottawa-hospital-research-institute/image/upload/v1556026840/TOH_App/landing_image.jpg)
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    h1{
+        text-align: center;
+        color: #f5f5f5;
+        line-height: 6rem;
+
+        @media screen and (max-width: $break-small) {
+            text-align: center;
+            color: #f5f5f5;
+            line-height: 4rem;    
+        }
+    }
+}

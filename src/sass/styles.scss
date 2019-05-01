@@ -1,0 +1,37 @@
+$break-small: 425px;
+$break-medium: 1024px;
+$break-large: 1200px;
+
+@import "../containers/footer/footer";
+@import "../containers/navbar/navbar";
+@import "../components/landing/landing";
+@import "../components/about/about";
+@import "../components/login/login";
+@import "../components/registration/registration";
+@import "../components/main_menu/main_menu";
+@import "../components/self_assessment/self_assessment";
+@import "../components/health_report/health_report";
+@import "../components/help/help";
+@import "../components/resiliency_resources/resiliency_resources";
+
+
+
+
+
+
+
+body, html {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "sans-serif", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  }
+  
+body > div {
+display: flex;
+flex-direction: column;
+}

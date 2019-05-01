@@ -1,0 +1,39 @@
+.selfAssessment_container{
+    h2{
+        text-align: center;
+    }
+    .row{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .col-3{
+        max-width: 15%;
+        text-align: right;
+        
+        @media screen and (max-width: $break-small) {
+        max-width: 25%;            
+        }
+        
+        label{
+            margin: 0;
+        }
+    }
+    .col-9 .rc-slider{
+        padding-top:11px;
+    }
+
+    .last{
+        @media screen and (max-width: $break-medium) {
+            padding-top: 12px;
+        }
+    }
+
+    .selfAssessment_submit{
+        text-align: center;
+
+        input{
+            width: 6rem;
+            font-size: 1.2rem;
+        }
+    }
+}
