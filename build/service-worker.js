@@ -1,4 +1,4 @@
-importScripts("https://hsh0917.github.io/PWA_Test/precache-manifest.09b329f84aed04ecc57a151b28c6ca5b.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
+importScripts("http://localhost:5000/precache-manifest.0b819475a105b9a521b64931dda0bbf9.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 self.addEventListener('install', event => {
     const asyncInstall = new Promise(resolve => {
@@ -21,7 +21,7 @@ workbox.routing.registerRoute(
 
 workbox.routing.registerRoute(
   /.*\.(?:png|jpg|jpeg|svg|gif)/g,
-  workbox.strategies.cacheFirst({
+  workbox.strategies.networkFirst({
     cacheName: "images"
   })
 );

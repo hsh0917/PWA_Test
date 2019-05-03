@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "https://hsh0917.github.io/PWA_Test/static/css/main.c4fb14a2.chunk.css",
-    "main.js": "https://hsh0917.github.io/PWA_Test/static/js/main.dc41ce05.chunk.js",
-    "main.js.map": "https://hsh0917.github.io/PWA_Test/static/js/main.dc41ce05.chunk.js.map",
-    "runtime~main.js": "https://hsh0917.github.io/PWA_Test/static/js/runtime~main.382f57bd.js",
-    "runtime~main.js.map": "https://hsh0917.github.io/PWA_Test/static/js/runtime~main.382f57bd.js.map",
-    "static/css/2.b4c5b390.chunk.css": "https://hsh0917.github.io/PWA_Test/static/css/2.b4c5b390.chunk.css",
-    "static/js/2.8d36ad63.chunk.js": "https://hsh0917.github.io/PWA_Test/static/js/2.8d36ad63.chunk.js",
-    "static/js/2.8d36ad63.chunk.js.map": "https://hsh0917.github.io/PWA_Test/static/js/2.8d36ad63.chunk.js.map",
-    "index.html": "https://hsh0917.github.io/PWA_Test/index.html",
-    "precache-manifest.09b329f84aed04ecc57a151b28c6ca5b.js": "https://hsh0917.github.io/PWA_Test/precache-manifest.09b329f84aed04ecc57a151b28c6ca5b.js",
-    "service-worker.js": "https://hsh0917.github.io/PWA_Test/service-worker.js",
-    "static/css/2.b4c5b390.chunk.css.map": "https://hsh0917.github.io/PWA_Test/static/css/2.b4c5b390.chunk.css.map",
-    "static/css/main.c4fb14a2.chunk.css.map": "https://hsh0917.github.io/PWA_Test/static/css/main.c4fb14a2.chunk.css.map"
+    "main.css": "http://localhost:5000/static/css/main.c4fb14a2.chunk.css",
+    "main.js": "http://localhost:5000/static/js/main.2d9923c5.chunk.js",
+    "main.js.map": "http://localhost:5000/static/js/main.2d9923c5.chunk.js.map",
+    "runtime~main.js": "http://localhost:5000/static/js/runtime~main.e43d5d75.js",
+    "runtime~main.js.map": "http://localhost:5000/static/js/runtime~main.e43d5d75.js.map",
+    "static/css/2.b4c5b390.chunk.css": "http://localhost:5000/static/css/2.b4c5b390.chunk.css",
+    "static/js/2.7ebf8ec3.chunk.js": "http://localhost:5000/static/js/2.7ebf8ec3.chunk.js",
+    "static/js/2.7ebf8ec3.chunk.js.map": "http://localhost:5000/static/js/2.7ebf8ec3.chunk.js.map",
+    "index.html": "http://localhost:5000/index.html",
+    "precache-manifest.0b819475a105b9a521b64931dda0bbf9.js": "http://localhost:5000/precache-manifest.0b819475a105b9a521b64931dda0bbf9.js",
+    "service-worker.js": "http://localhost:5000/service-worker.js",
+    "static/css/2.b4c5b390.chunk.css.map": "http://localhost:5000/static/css/2.b4c5b390.chunk.css.map",
+    "static/css/main.c4fb14a2.chunk.css.map": "http://localhost:5000/static/css/main.c4fb14a2.chunk.css.map",
+    "static/media/landing_image.jpg": "http://localhost:5000/static/media/landing_image.05329b7c.jpg"
   }
 }

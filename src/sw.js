@@ -19,7 +19,7 @@ workbox.routing.registerRoute(
 
 workbox.routing.registerRoute(
   /.*\.(?:png|jpg|jpeg|svg|gif)/g,
-  workbox.strategies.cacheFirst({
+  workbox.strategies.networkFirst({
     cacheName: "images"
   })
 );
