@@ -1,4 +1,4 @@
-importScripts("http://localhost:5000/precache-manifest.395297f5dd9fb2bbfe6f971125943063.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
+importScripts("http://localhost:5000/#/precache-manifest.e3ab89b537f9dd3c6be5be693acf032c.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 self.addEventListener('install', event => {
     const asyncInstall = new Promise(resolve => {
