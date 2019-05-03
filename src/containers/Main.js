@@ -16,14 +16,14 @@ const Main = props => {
         <div className="main_container">
             <Switch>    
                 <Route exact path="/" render={props => <Landing />} />
-                <Route path="/about" render={props => <About />} />
-                <Route path="/login" render={props => <Login />} />
-                <Route path="/registration" render={props => <Registration />} />
-                <Route path="/main_menu" render={props => <Main_menu />} />
-                <Route path="/self_assessment" render={props => <Self_assessment />} />
-                <Route path="/health_Report" render={props => <Health_Report />} />
-                <Route path="/help" render={props => <Help />} />
-                <Route path="/resiliency_resources" render={props => <Resiliency_resources />} />
+                <Route exact path="/about" render={props => <About />} />
+                <Route exact path="/login" render={props => <Login />} />
+                <Route exact path="/registration" render={props => <Registration />} />
+                <Route exact path="/main_menu" render={props => <Main_menu />} />
+                <Route exact path="/self_assessment" render={props => <Self_assessment />} />
+                <Route exact path="/health_Report" render={props => <Health_Report />} />
+                <Route exact path="/help" render={props => <Help />} />
+                <Route exact path="/resiliency_resources" render={props => <Resiliency_resources />} />
             </Switch>
         </div>
 

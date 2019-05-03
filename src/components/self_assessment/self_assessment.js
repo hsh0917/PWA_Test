@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from "react-router-dom";
+import Navbar from '../../containers/navbar/navbar';
 
 import './self_assessment';
 import Slider, { Range } from 'rc-slider';
@@ -20,6 +21,8 @@ class Self_assessment extends Component {
 
   render() {
     return (
+      <div>
+        <Navbar />
       <div className="container selfAssessment_container">
         <form className="needs-validation" novalidate onSubmit={this.submitForm.bind(this)}>
           <div className="form-group">
@@ -64,6 +67,7 @@ class Self_assessment extends Component {
             </div>
           </div>
         </form>
+      </div>
       </div>
     );
   }

@@ -1,4 +1,11 @@
 .selfAssessment_container{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 78vh;
+    margin-bottom: 15px;
+    display:block;
+
     h2{
         text-align: center;
     }

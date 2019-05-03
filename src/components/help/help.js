@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import './help';
+import Navbar from '../../containers/navbar/navbar';
 
 class Help extends Component {
   render() {
     return (
+      <div>
+      <Navbar />
       <div className="help_container">
         <div className="container">
           <div className="circle_div1">
@@ -21,9 +24,8 @@ class Help extends Component {
               Reach Out
             </a>
           </div>
-
         </div>
-        
+      </div>
       </div>
     );
   }

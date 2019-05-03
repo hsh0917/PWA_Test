@@ -6,9 +6,13 @@ import { faGrinBeam} from '@fortawesome/free-regular-svg-icons';
 import { faMeh} from '@fortawesome/free-regular-svg-icons';
 import { faFrown} from '@fortawesome/free-regular-svg-icons';
 
+import Navbar from '../../containers/navbar/navbar';
+
 class HealthReport extends Component {
   render() {
     return (
+      <div>
+        <Navbar />
       <div className="container healthReport_container">
           <h2>Your Health Report</h2>
           
@@ -26,6 +30,7 @@ class HealthReport extends Component {
             <h4>Recommendations</h4>
             
           </div>
+    </div>
     </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 
 import Navbar from './navbar/navbar';
@@ -21,7 +21,7 @@ class App extends Component {
   
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
         <div className="App">
           <Main />
           <Footer />

@@ -1,6 +1,6 @@
 $break-small: 425px;
 $break-medium: 1024px;
-$break-large: 1200px;
+$break-large: 14000px;
 
 @import "../containers/footer/footer";
 @import "../containers/navbar/navbar";
@@ -13,11 +13,6 @@ $break-large: 1200px;
 @import "../components/health_report/health_report";
 @import "../components/help/help";
 @import "../components/resiliency_resources/resiliency_resources";
-
-
-
-
-
 
 
 body, html {

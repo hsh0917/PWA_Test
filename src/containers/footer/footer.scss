@@ -5,6 +5,11 @@ footer{
     background-color: #fff;
     text-align: center;
     padding-bottom: 15px;
+    height: 16vh;
+    @media screen and (max-width: $break-large) {
+        height: 13vh;
+
+    }
     
     h5{
         color: #193762;
@@ -19,6 +24,10 @@ footer{
         @media screen and (max-width: $break-small) {
             width: 160px;
             height: 50px;
+        }
+        @media screen and (max-width: $break-large) {
+            width: 200px;
+            height: 62px;
         }
     }
 
