@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PWA_Test/static/css/main.c4fb14a2.chunk.css",
-    "main.js": "/PWA_Test/static/js/main.6c7b3b2b.chunk.js",
-    "main.js.map": "/PWA_Test/static/js/main.6c7b3b2b.chunk.js.map",
-    "runtime~main.js": "/PWA_Test/static/js/runtime~main.0165c6bf.js",
-    "runtime~main.js.map": "/PWA_Test/static/js/runtime~main.0165c6bf.js.map",
-    "static/css/2.b4c5b390.chunk.css": "/PWA_Test/static/css/2.b4c5b390.chunk.css",
-    "static/js/2.8d36ad63.chunk.js": "/PWA_Test/static/js/2.8d36ad63.chunk.js",
-    "static/js/2.8d36ad63.chunk.js.map": "/PWA_Test/static/js/2.8d36ad63.chunk.js.map",
-    "index.html": "/PWA_Test/index.html",
-    "precache-manifest.2424570e97b62eba8f733800764cfae2.js": "/PWA_Test/precache-manifest.2424570e97b62eba8f733800764cfae2.js",
-    "service-worker.js": "/PWA_Test/service-worker.js",
-    "static/css/2.b4c5b390.chunk.css.map": "/PWA_Test/static/css/2.b4c5b390.chunk.css.map",
-    "static/css/main.c4fb14a2.chunk.css.map": "/PWA_Test/static/css/main.c4fb14a2.chunk.css.map"
+    "main.css": "https://hsh0917.github.io/PWA_Test/static/css/main.c4fb14a2.chunk.css",
+    "main.js": "https://hsh0917.github.io/PWA_Test/static/js/main.dc41ce05.chunk.js",
+    "main.js.map": "https://hsh0917.github.io/PWA_Test/static/js/main.dc41ce05.chunk.js.map",
+    "runtime~main.js": "https://hsh0917.github.io/PWA_Test/static/js/runtime~main.382f57bd.js",
+    "runtime~main.js.map": "https://hsh0917.github.io/PWA_Test/static/js/runtime~main.382f57bd.js.map",
+    "static/css/2.b4c5b390.chunk.css": "https://hsh0917.github.io/PWA_Test/static/css/2.b4c5b390.chunk.css",
+    "static/js/2.8d36ad63.chunk.js": "https://hsh0917.github.io/PWA_Test/static/js/2.8d36ad63.chunk.js",
+    "static/js/2.8d36ad63.chunk.js.map": "https://hsh0917.github.io/PWA_Test/static/js/2.8d36ad63.chunk.js.map",
+    "index.html": "https://hsh0917.github.io/PWA_Test/index.html",
+    "precache-manifest.09b329f84aed04ecc57a151b28c6ca5b.js": "https://hsh0917.github.io/PWA_Test/precache-manifest.09b329f84aed04ecc57a151b28c6ca5b.js",
+    "service-worker.js": "https://hsh0917.github.io/PWA_Test/service-worker.js",
+    "static/css/2.b4c5b390.chunk.css.map": "https://hsh0917.github.io/PWA_Test/static/css/2.b4c5b390.chunk.css.map",
+    "static/css/main.c4fb14a2.chunk.css.map": "https://hsh0917.github.io/PWA_Test/static/css/main.c4fb14a2.chunk.css.map"
   }
 }

@@ -1,39 +1,43 @@
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/2aRDsh
- */
+importScripts("https://hsh0917.github.io/PWA_Test/precache-manifest.09b329f84aed04ecc57a151b28c6ca5b.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
+self.addEventListener('install', event => {
+    const asyncInstall = new Promise(resolve => {
+        console.log("Waiting to resolve...")
+        setTimeout(resolve, 5000)
+      })
+    event.waitUntil(asyncInstall)
+  });
 
-importScripts(
-  "/PWA_Test/precache-manifest.2424570e97b62eba8f733800764cfae2.js"
+self.addEventListener('activate', event => {
+    console.log('activate')
+});
+
+workbox.routing.registerRoute(
+  new RegExp('https:.*min\.(css|js|html)'),
+  workbox.strategies.staleWhileRevalidate({
+      cacheName: 'CDN'
+    }),
 );
 
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-});
+workbox.routing.registerRoute(
+  /.*\.(?:png|jpg|jpeg|svg|gif)/g,
+  workbox.strategies.cacheFirst({
+    cacheName: "images"
+  })
+);
 
-workbox.core.clientsClaim();
+  workbox.routing.registerRoute(
+  /\.(?:js|jsx)$/,
+  workbox.strategies.networkFirst({
+    cacheName: "javascripts"
+  })
+);
 
-/**
- * The workboxSW.precacheAndRoute() method efficiently caches and responds to
- * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
- */
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+workbox.routing.registerRoute(
+  /.*\.css/,
+  workbox.strategies.networkFirst({
+    cacheName: "css-cache"
+  })
+);
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/PWA_Test/index.html"), {
-  
-  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
-});
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
